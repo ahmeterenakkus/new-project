@@ -1,0 +1,14 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch" : "npx tailwindcss -i tailwind.css -o src/stlye.css -w --minify   ",
+    "dev":"npx tailwindcss -i ./css/tailwind.css -o ./css/styles.css --watch",
+    
+    "build" : "npx tailwindcss -i tailwind.css -o css/stlye.css --minify "  
+  },
+  "author": "",
+  "license": "ISC"
+}
